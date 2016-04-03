@@ -24,9 +24,11 @@ defmodule Plaid.Mixfile do
   end
 
   defp package do
-    files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
-    maintainers: ["Travis Jeffery"],
-    licenses: ["MIT"],
-    links: %{"GitHub" => "https://github.com/travisjeffery/plaid"}
+    [
+      files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+      maintainers: ["Travis Jeffery"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/travisjeffery/plaid"}
+    ]
   end
 end
